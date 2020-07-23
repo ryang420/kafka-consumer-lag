@@ -1,0 +1,8 @@
+2020-07-22 15:21:43,639 - /Users/dyang1/IdeaProjects/kafka-consumer-lag/kafka-consumer-lag/config/conf1.properties (No such file or directory)
+2020-07-22 15:23:54,622 - Loading property file exception.
+java.io.FileNotFoundException: /Users/dyang1/IdeaProjects/kafka-consumer-lag/kafka-consumer-lag/config/conf1.properties (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.active.prometheus.ConsumerLagExporter.main(ConsumerLagExporter.java:22)
