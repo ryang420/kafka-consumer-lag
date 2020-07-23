@@ -13,6 +13,11 @@ This project is using to export kafka consumer lag metrics to Prometheus.
 4. Check the metrics with http request.
     http://localhost:8089/metrics
     
-    
+## deploy project
+1. Copy the entire directory kafak-consumer-lag to a directory on your server
+2. Start service with command "bin/consumer_lag.sh start"
+
+![image](./images/deploy.png)
+ 
 ## Kafka consumer lag metrics in Granfana
 ![image](./images/metrics.png)
